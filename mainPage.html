@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MainPage</title>
+    <link rel="stylesheet" href="./assest/css/style.css" />
+    <script src="./jquery.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="imgColumn">
+        <img class="logoImg" src="img/logo.jpg" />
+        <div class="gradient"></div>
+      </div>
+      <div class="firstColumn">
+        <div class="teamTable__title">
+          <i class="fa-solid fa-list-ul"></i>
+          현재 개설된 팀 목록
+        </div>
+        <form class="SearchTeam" method="get" action="">
+          <input
+            type="text"
+            name="team_name"
+            value=""
+            placeholder="수업 이름을 
+            
+            입력해주세요..."
+          />
+          <button>
+            <i class="fa-solid fa-magnifying-glass fa-lg searchIcon"></i>
+          </button>
+        </form>
+        <div class="teamTable">
+          <div class="team"></div>
+          <div class="team"></div>
+          <div class="team"></div>
+          <div class="team"></div>
+          <div class="team"></div>
+        </div>
+      </div>
+      <div class="secondColumn">
+        <a href="http://www.google.com" class="create_newTeam">
+          새로운 수업 만들기
+        </a>
+      </div>
+    </div>
+    <script src="./assest/js/mainPage.js"></script>
+    <script
+      src="https://kit.fontawesome.com/cacb8915e2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
