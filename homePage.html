@@ -15,15 +15,23 @@
       </div>
       <div class="main__firstColumn">
         <div class="main__firstColumn__Form">
-          <form class="LoginForm">
+          <form class="LoginForm" method="post" action="">
             <span class="LoginForm__title">동국대학교 팀 만들기(학부)</span>
             <label for="ID">아이디 (학번)</label>
-            <input id="ID" type="text" placeholder="학번을 입력하세요" />
+            <input
+              id="ID"
+              type="text"
+              placeholder="학번을 입력하세요"
+              name="user_id"
+              value=""
+            />
             <label for="PW">비밀번호</label>
             <input
               id="PW"
               type="password"
               placeholder="비밀번호를 입력하세요"
+              name="user_pwd"
+              value=""
             />
             <button class="LoginForm_btn">로그인</button>
           </form>
