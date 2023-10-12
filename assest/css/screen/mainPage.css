@@ -25,29 +25,11 @@
 
 .team {
   margin: 20px;
-  border: ㅜㅐㅜㄷ;
+  border: none;
   width: 750px;
   height: 150px;
   border-radius: 10px;
   background-color: wheat;
-}
-
-.create_newTeam {
-  border-radius: 15px;
-  border: none;
-  padding: 10px 20px;
-  font-size: 15px;
-  position: absolute;
-  bottom: 60px;
-  left: 50px;
-  background-color: #d1891d;
-  font-weight: 600;
-  color: white;
-  text-decoration-line: none;
-}
-
-.create_newTeam:hover {
-  background-color: #f29300;
 }
 
 .SearchTeam {

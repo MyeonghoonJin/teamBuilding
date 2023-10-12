@@ -1,0 +1,28 @@
+.FirstRow {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbd9d6;
+  width: 800px;
+  margin: 10px;
+  border-radius: 10px;
+  overflow-x: scroll;
+}
+
+.SecondRow {
+  height: 800px;
+  display: flex;
+  background-color: #dbd9d6;
+  width: 800px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.TeamConstruct {
+  width: 500px;
+  height: 100px;
+  background-color: wheat;
+  margin: 10px;
+  border-radius: 20px;
+}
