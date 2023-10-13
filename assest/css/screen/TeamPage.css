@@ -1,0 +1,54 @@
+.FirstRow {
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  background-color: #dbd9d6;
+  width: 800px;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.FirstRow::-webkit-scrollbar {
+  display: none;
+}
+
+.SecondRow {
+  height: 800px;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #dbd9d6;
+  width: 800px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.TeamConstruct {
+  width: 500px;
+  height: 100px;
+  background-color: wheat;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.introduceTable {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 800px;
+}
+
+.introduceTable::-webkit-scrollbar {
+  display: none;
+}
+
+.introduceBox {
+  width: 750px;
+  height: 600px;
+  background-color: wheat;
+  border-radius: 20px;
+  margin: 10px;
+}
