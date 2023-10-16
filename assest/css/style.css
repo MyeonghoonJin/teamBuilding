@@ -5,6 +5,7 @@
 /*screen css style */
 @import "screen/homePage.css";
 @import "screen/mainPage.css";
+@import "screen/userRoom.css";
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

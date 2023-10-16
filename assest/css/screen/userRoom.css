@@ -1,0 +1,81 @@
+.room_information {
+  display:flex;
+  top: 20px;
+  width: 850px;
+  height: 150px;
+  background-color: #d5c2a4be;
+  border-radius: 10px;
+  margin-top:5px;
+  padding-top:15px;
+}
+
+.room_name_font {
+  font-size: 17px;
+  font-weight : 700;
+  margin-left:10px;
+  
+}
+
+.room_text_description {
+  margin-left:10px;
+  width: 800px;
+  height: 90px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  padding : 5px;
+}
+
+.user_information {
+  display:flex;
+  flex-direction:column;
+  flex:1;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-top:15px;
+  width : 850px; 
+  height: 200px;
+  border-radius: 10px; 
+  background-color : #cecfa8be;
+}
+
+.candidate_info{
+  margin-left: 20px;
+  margin-bottom: 30px;
+  border: 1.5px;
+  width: 800px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #a9d7eac3;
+  font-size: 17px;
+  font-weight : 700;
+  padding-left:10px;
+  padding-top:5px;
+}
+
+#deadline_submit {
+  width : 60px;
+  height : 35px;
+  background-color : whitesmoke;
+  font-size: 15px;
+  font-weight : 700;
+  border-radius: 5px;
+  border: 1.5px solid black;
+  
+}
+
+.deadline {
+  position:absolute;
+  bottom : 30px;
+  right : 50px;
+}
+
+#delete {
+  position:relative;
+  left : 20px;
+  width : 40px;
+}
+
+#slashing {
+  position:relative;
+  left:20px;
+}
